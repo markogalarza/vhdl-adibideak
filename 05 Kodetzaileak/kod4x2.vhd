@@ -15,7 +15,7 @@ end kod4x2;
     begin
         if (SW(3) = '1') then  -- Komilla sinplea behar da
             LEDR <= "11";
-        elsif (SW(3 downto 2) = "01") then -- Eta hemendi aurrera komilla bikoitza
+        elsif (SW(3 downto 2) = "01") then -- Eta hemendik aurrera komilla bikoitza
             LEDR <= "10";
         elsif (SW(3 downto 1) = "001") then
             LEDR <= "01";
