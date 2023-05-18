@@ -39,7 +39,7 @@ begin
         	when q2 =>
 				z <= '0';
         	    if x='0' then
-        		    next_state <=q3;
+        		    next_state <= q3;
         	    else
         		    next_state <= q2;
         	    end if;
